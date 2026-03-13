@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots, faDisplay, faMicrophone, faMicrophoneSlash, faPhone, faVideo, faVideoSlash } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 
-const server_url = 'http://localhost:3030'
+const server_url = 'https://apnavideocall-p4n3.onrender.com'
 let connections = {}
 const peerConfigConnections = {
     "iceServers": [
