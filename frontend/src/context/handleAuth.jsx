@@ -8,7 +8,7 @@ export const AuthContext=createContext({
 })
 
 const client=axios.create({
-    baseURL:"http://localhost:3030/api/users"
+    baseURL:"https://apnavideocall-p4n3.onrender.com/api/users"
 })
 export const AuthProvider=({children})=>{
     const authContext=useContext(AuthContext)
